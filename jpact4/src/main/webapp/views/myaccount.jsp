@@ -12,7 +12,7 @@
 						<h3 class="alert alert danger">${alert}</h3>
 					</c:if>
 					<div class="col-md-7 col-sm-7">
-						<form action="/Login_Logout/myaccount" method="post"
+						<form action="/jpact4/myaccount" method="post"
 							class="form-horizontal" role="form" enctype="multipart/form-data">
 							<fieldset>
 								<legend>Your personal details</legend>

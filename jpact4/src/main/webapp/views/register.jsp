@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/Login_Logout/register"  method="post">
+	<form action="/jpact4/register"  method="post">
 		<div class="container">
 			<h1>Register</h1>
 			<hr>

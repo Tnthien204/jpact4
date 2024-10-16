@@ -16,7 +16,7 @@
 		</c:if>
               
                 <div class="col-md-7 col-sm-7">
-                  <form action="/Login_Logout/login" method="post" class="form-horizontal form-without-legend" role="form">
+                  <form action="/jpact4/login" method="post" class="form-horizontal form-without-legend" role="form">
                     <div class="form-group">
                       <label for="email" class="col-lg-4 control-label">Username <span class="require">*</span></label>
                       <div class="col-lg-8">
@@ -36,7 +36,7 @@
                     </div>
                     <div class="row">
                       <div class="col-lg-8 col-md-offset-4 padding-left-0">
-                        <a href="/Login_Logout/forgotpsw">Forget Password?</a>
+                        <a href="/jpact4/forgotpsw">Forget Password?</a>
                       </div>
                     </div>
                     <div class="row">
