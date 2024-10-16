@@ -1,19 +1,25 @@
+
 package configs;
-import jakarta.persistence.*;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityTransaction;
+import entity.Category;
 
 public class Test {
 	public static void main(String[] args) {
-		EntityManager enma = JpaConfig.getEntityManager();
+		EntityManager enma = JPAConfig.getEntityManager();
 		EntityTransaction trans = enma.getTransaction();
+		
+		
 		try {
-		    trans.begin();
-		    trans.commit();
+			trans.begin();
+			trans.commit();
 		} catch (Exception e) {
-		    e.printStackTrace();
-		    trans.rollback();
-		    throw e;
+			e.printStackTrace();
+			trans.rollback();
+			throw e;
 		} finally {
-		    enma.close();
+			enma.close();
 		}
 	}
 }
