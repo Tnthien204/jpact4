@@ -44,6 +44,4 @@ public class Video implements Serializable{
 	private Category category;
 
 	//constructor, getters, setters tu sinh ra voi LomBok
-	
-	
 }	
